@@ -1,0 +1,20 @@
+header{
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;  /* o displey flex serve para deixar os elementos de uma
+                  tag paralelos horizontalmente. */
+flex-direction: row;
+justify-content: space-between;/* divide os elementos com espaçamentos iguais
+tag paralelos horizontalmente. */
+align-items:center;
+}
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+header nav ul li{
+  padding: 15px;
+}
+
+
