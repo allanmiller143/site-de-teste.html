@@ -1,0 +1,28 @@
+@media (max-width: 1400px){
+  .container{
+      width: 700px;
+      }
+      .row div img {
+        width: 550px;
+      }
+    }
+@media (max-width: 800px){
+  .container{
+       width: 600px;
+       
+   }
+  .row div img {
+       width: 550px;
+    }
+  .row{
+    flex-direction: column;
+  }
+  body{
+    background-position:left -200px;
+  }
+  footer .row{
+    flex-direction: row;
+  }
+
+  } 
+    

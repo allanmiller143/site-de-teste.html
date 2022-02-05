@@ -1,20 +1,22 @@
-header{
-  width: 1024px;
-  margin: 0 auto;
-  display: flex;  /* o displey flex serve para deixar os elementos de uma
-                  tag paralelos horizontalmente. */
-flex-direction: row;
+
+header section{
 justify-content: space-between;/* divide os elementos com espaçamentos iguais
 tag paralelos horizontalmente. */
-align-items:center;
+align-items:center; /*alinha os itens pelo centro */
+
 }
-header nav ul{
+header section nav ul{
   display: flex;
   flex-direction: row;
-  list-style: none;
+  list-style: none; /* serve para tirar as bolinhas da ul */
+  align-items: center;
 }
-header nav ul li{
-  padding: 15px;
+header section nav ul li a {
+margin: 0px 15px;  /* isso vai separar os itens na horizontal */
+text-decoration: none;
+color: rgb(24, 203, 226);
+
 }
+
 
 

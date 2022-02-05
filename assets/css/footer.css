@@ -1,0 +1,10 @@
+footer ul{
+  width: 1024px;
+  margin: 30px auto;
+}
+footer ul li{
+  margin: 15px;
+}
+footer ul li img{
+  width: 30px;
+}
